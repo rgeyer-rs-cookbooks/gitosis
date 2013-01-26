@@ -9,7 +9,7 @@ version          "0.0.1"
   supports os
 end
 
-%w{scheduler rightscale}.each do |dep|
+%w{rightscale}.each do |dep|
   depends dep
 end
 
